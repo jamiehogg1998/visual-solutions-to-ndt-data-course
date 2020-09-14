@@ -1,0 +1,16 @@
+title: Visual Solutions to NDT Data
+description: Creating a user interface to import and display non-destructive testing data.
+template:
+  repo: visual-solutions-to-ndt-data-template
+  name: visual-solutions-to-ndt-data
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
